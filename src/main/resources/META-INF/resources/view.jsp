@@ -20,13 +20,13 @@
 
 <p>
 	<b class="redBackground"><liferay-ui:message key="data_engine_example_DataEngineExamplePortlet.caption" /></b>
-	
+
 	<div>
 		<liferay-data-engine:data-layout-builder
-			contentType="native-object"
-			namespace="custom_namespace"
+			contentType="data-engine-example"
+			namespace="custom_namespace_DataEngineExamplePortlet"
 		/>
 	</div>
-	
+
 	<b class="redBackground">End of example</b>
 </p>
